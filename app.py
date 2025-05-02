@@ -76,7 +76,7 @@ def load_yolov5_model(model_path='yolov5s.pt'):
         return None
 
 # Encabezado
-st.title("🔍 Detección de Objetos con YOLOv5")
+st.title("🔍 Detección de Objetos en cámara OMG")
 st.markdown("¿Si eres humano? Analiza imágenes capturadas desde tu cámara usando inteligencia artificial. 🤖")
 
 # Cargar modelo
