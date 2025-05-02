@@ -17,7 +17,7 @@ st.set_page_config(
 st.markdown("""
     <style>
         html, body, .stApp {
-            background-color: #121212;
+            background-color: #B3BAC4;
             color: #E0E0E0;
             font-family: 'Segoe UI', sans-serif;
         }
