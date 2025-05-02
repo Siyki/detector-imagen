@@ -8,7 +8,7 @@ import sys
 
 # Configuración de página
 st.set_page_config(
-    page_title="Detección de Objetos con YOLOv5 🔍",
+    page_title="DETECTOR DE OBJETOS",
     page_icon="🧠",
     layout="wide"
 )
@@ -77,7 +77,7 @@ def load_yolov5_model(model_path='yolov5s.pt'):
 
 # Encabezado
 st.title("🔍 Detección de Objetos con YOLOv5")
-st.markdown("Analiza imágenes capturadas desde tu cámara usando inteligencia artificial. 🤖")
+st.markdown("¿Si eres humano? Analiza imágenes capturadas desde tu cámara usando inteligencia artificial. 🤖")
 
 # Cargar modelo
 with st.spinner("⏳ Cargando modelo YOLOv5..."):
